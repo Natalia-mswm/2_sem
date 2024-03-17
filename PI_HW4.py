@@ -1,4 +1,4 @@
-#Группа 1, Максимова Н.В.
+# Группа 1, Максимова Н.В.
 
 from transformers import pipeline
 import streamlit as st
