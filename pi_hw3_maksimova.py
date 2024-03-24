@@ -21,6 +21,3 @@ def root():
 def get_info():
     a = "Это было не так уж просто"
     return translator(a)
-
-
-    
