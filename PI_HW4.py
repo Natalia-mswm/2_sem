@@ -10,4 +10,4 @@ button = st.button('Перевести')
 if button:
     #    a = translator(text)
     #   translated_text = translate()
-    output_text = st.write("Перевод: ", translator(text))
+    output_text = st.write("Перевод: ", translator(input_text))
