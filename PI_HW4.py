@@ -8,6 +8,4 @@ translator = pipeline("translation_ru_to_fr", "Helsinki-NLP/opus-mt-ru-fr")
 input_text = st.text_input('Введите текст для перевода:', 'Введите текст')
 button = st.button('Перевести')
 if button:
-    #    a = translator(text)
-    #   translated_text = translate()
     output_text = st.write("Перевод: ", translator(input_text))
